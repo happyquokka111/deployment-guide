@@ -1,0 +1,59 @@
+.container {
+  justify-items: center;
+  padding: 40px;
+  margin-top: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+#Title {
+  text-align: center;
+  background-color: #d6d58e;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 10px 10px 8px #888888;
+  color: black;
+  animation-name: floating;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#PartOne {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+#PartTwo {
+  text-align: left;
+  background-color: #005c53;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 10px 10px 8px #888888;
+  color: white;
+}
+
+#PartThree {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+#PartFour {
+  text-align: left;
+  background-color: #042940;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 10px 10px 8px #888888;
+  color: white;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
